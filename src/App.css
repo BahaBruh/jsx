@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+.container{
+    max-width: 1110px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.nav{
+    background: black;
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.list{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.nav__logo{
+    color: white;
+
+}
+
+.link{
+    color: white;
+    font-size: 15px
+}
+
+.call .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+.call{
+    background: url(../src/components/img/Rectangle\ 2.png) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 850px;
+}
+.call{
+    display: flex;
+    align-items: center;
+}
+
+.call__name{
+    font-size: 35px;
+}
+
+.call__button{
+    background: white;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    border-radius: 10px;
+}
+
+.main .container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    height: 850px;
+    background:#0E1C25;
+    display: flex;
+    align-items: center;
+}
+
+.main__info{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.main__text-info{
+    max-width: 400px;
+    color: white;
+
+}
+
+.img{
+    max-width: 400px;
+    height: 300px;
+    font-weight: 700;
+    
+}
+.main__name{
+    color: white;
+    font-size: 30px;
+}
+.main__text-name{
+    color: white;
+    font-size: 25px;
+    font-size: 100;
+}
+.main__text{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.work{
+    background:#5C6B81 ;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.work .container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.work__list{
+    width:312px ;
+    height: 550px;
+    background: #B12B06;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.work__list h2{
+    color: white;
+    font-size: 25px;
+}
+.work__list p{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    width: 250px;
+}
+
+.li__button{
+    color: black;
+    background: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.work__name{
+    color: white;
+    font-size: 30px;
+}
+.footer{
+    background: black;
+    padding: 50px 0 ;
+
+}
+.footer .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__name{
+    color: white;
+    font-size: 40px;
+}
